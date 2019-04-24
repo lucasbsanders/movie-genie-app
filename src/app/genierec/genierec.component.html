@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card border-0 text-center">
+        <img src="../../assets/img/genie.png" class="card-img-top" alt="genie.png">
+        <div class="card-body">
+          <h5 class="card-title">Jeanni the Genie</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 text-center">
+        <img src="../../assets/img/speech-bubble.png" class="card-img" alt="speech-bubble.png">
+        <div class="card-img-overlay">
+          <div class="vertical-center">
+            <p class="card-text">I recommend you watch:</p>
+            <app-movie></app-movie>
+            <p class="card-text">Come back when you've seen it!</p>
+          </div>
+        </div>
+      </div>
+      <div style="padding-left: 4em">
+          <button type="button" class="btn btn-outline-primary" (click)="archive(this.movie)">Seen it!</button>
+      </div>
+      <div style="padding-top: 1em; padding-left: 4em;">
+          <p>Clicking "Seen it!" will add the movie to your archive, so I won't recommended it again. You can always edit movies in your archive.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<app-back-logout></app-back-logout>

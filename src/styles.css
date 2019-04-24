@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.container {
+  padding-top: 3em;
+}
+
+.card {
+  background-color: #a2acbd;
+}
+
+.card-title{
+  color: #433e37;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+
+}
+
+.card-body{
+  color: #433e37;
+  line-height: 1.5;
+}
+
+.jumbotron{
+  background-color: #fcdebe;
+}
+
+body {
+  background-color: #f2eeed;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
