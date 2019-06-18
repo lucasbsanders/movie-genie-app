@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Launching
-Download the repository, unzip, then cd into it on command line/terminal. Run ```npm install``` (assuming you have npm already) to install dependencies, then ```npm run build``` to compile & run. It should open a new window in your browser.
+Download the repository, unzip, then cd into it on command line/terminal. Run ```npm install``` (assuming you have npm already) to install dependencies, then ```npm run start``` to compile & run. It should open a new window in your browser.
 
 ## Angular code
 
